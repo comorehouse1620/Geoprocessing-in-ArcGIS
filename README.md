@@ -1,5 +1,6 @@
 # LAB 1: GEOPROCESSING IN ARCGIS
 Author: Claire Morehouse
+
 Due: 23 OCT 2020
 
 ## Lab Description
