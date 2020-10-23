@@ -7,6 +7,8 @@ This repository contains two scripts that each execute different geoprocesssing 
 
 Below is an image of the clipped lake shapefile that is the final output of my_clip. 
 
+![](images/Lake.png)
+
 You will submit two scripts, one screenshot, and a short (150 – 250 word) write up as your README file. Be sure to read the lab sheet carefully since it explains which scripts you need to save! Specifically, your repo should include: 
 - `file.flooding.py` from part 2
 - `my_clip.py` from part 3, and 
