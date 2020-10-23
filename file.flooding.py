@@ -1,5 +1,6 @@
 '''
 Author: Claire Morehouse
+Lab: Geogrocessing with ArcGIS, Python 3
 Description: This script creates a model in ArcMap that clips the floodzones based
 on the basin shapefile i.e. the basin is the "cookie-cutter of the floodzones.
 The model then from the clipped layer selects Special Flood Zone areas for
