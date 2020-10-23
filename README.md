@@ -1,13 +1,12 @@
 # LAB 1: GEOPROCESSING IN ARCGIS
+Author: Claire Morehouse
 Due: 23 OCT 2020
 
-## THE DATA
-In our class OneDrive, find the [Lab_1_Geoprocessing_ArcGIS folder](https://clarkuedu-my.sharepoint.com/:f:/g/personal/shroberts_clarku_edu/EvQL9wW9T2NGuwJO7_q35tQBqIp4PtuxdLlEHoE_W33hnQ?e=2H3R2z). In this you'll find 3 sub-folders: 
-- _1. Lab 1 instructions_ contains a Word doc with all the tutorial instructions you need. 
-- _Data_Lab_1_Geoprocessing_ArcGIS_ contains the data you need in the form of .shp files.
-- _Results_ is an empty folder you can use to save your outputs to. 
+## Lab Description
+This repository contains two scripts that each execute different geoprocesssing mechanisms in ArcMap using Python 3. The flooding script was creating by converting a Model built in ArcMap to Python Script. The script takes the shapefiles of floodzones and basin, and clips the floodzones using basin as a "cookie-cutter", and then from that clipped shaped, selects Special Flood Hazard Areas. The final output is a shapefile of the Special Flood Hazard Areas in the clipped floodzone areas. The my_clip script as written in Python, and creates a workspace in the Lab 1 Geoprocessing folder, and then clips the lake shapefile using basins as the "cookie-cutter". The final output is lake_myclip, which is a clipped version of lakes. 
 
-##  WHAT TO SUBMIT
+Below is an image of the clipped lake shapefile that is the final output of my_clip. 
+
 You will submit two scripts, one screenshot, and a short (150 – 250 word) write up as your README file. Be sure to read the lab sheet carefully since it explains which scripts you need to save! Specifically, your repo should include: 
 - `file.flooding.py` from part 2
 - `my_clip.py` from part 3, and 
